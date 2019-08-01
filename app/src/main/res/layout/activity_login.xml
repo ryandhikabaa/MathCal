@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/garisatas"
+        android:layout_height="7dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/id"
+        android:textColorHint="#00aeff"
+        android:backgroundTint="#00aeff"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="ID"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:textColorHint="#00aeff"
+        android:backgroundTint="#00aeff"
+        android:paddingBottom="15dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:onClick="lanjut"
+        android:id="@+id/ok"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol"
+        android:textColor="#fff"
+        android:text="OK"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERSEGI PANJANG"
+        android:textStyle="bold|italic"
+        android:textColor="#0090ff"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/garis">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUMUS ="
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/rumusPP"
+            android:text="panjang x lebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0090ff"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/panjangPP"
+        android:inputType="number"
+        android:hint="Panjang"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#000"/>
+
+    <EditText
+        android:id="@+id/lebarPP"
+        android:inputType="number"
+        android:hint="Lebar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000"/>
+
+
+    <Button
+        android:id="@+id/hitungPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buton2"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="hitung"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HASIL LUAS :"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/hasilPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#0090ff"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"/>
+
+
+
+
+</LinearLayout>

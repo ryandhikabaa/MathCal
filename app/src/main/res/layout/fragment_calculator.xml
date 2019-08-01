@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/angka1"
+        android:textColorHint="#00aeff"
+        android:backgroundTint="#00aeff"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:inputType="number"
+        android:hint="angka 1"/>
+
+    <EditText
+        android:id="@+id/angka2"
+        android:textColorHint="#00aeff"
+        android:backgroundTint="#00aeff"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="angka 2"/>
+
+    <Spinner
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/spinner"
+        android:entries="@array/operasi"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:background="@drawable/tombol"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="hitung" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="HASIL :"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#00aeff"/>
+
+    <TextView
+        android:id="@+id/hasil"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp" />
+
+
+</LinearLayout>
