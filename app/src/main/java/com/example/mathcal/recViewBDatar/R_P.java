@@ -11,9 +11,6 @@ import android.widget.TextView;
 import com.example.mathcal.R;
 
 
-/**
- * Created by RPL2016-11 on 11/1/2018.
- */
 public class R_P extends AppCompatActivity {
 
     TextView tvrumusP, tvhasilP;

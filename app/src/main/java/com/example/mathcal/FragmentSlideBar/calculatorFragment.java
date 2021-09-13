@@ -16,9 +16,7 @@ import android.widget.TextView;
 import com.example.mathcal.R;
 
 
-/**
- * Created by RPL2016-11 on 10/24/2018.
- */
+
 public class calculatorFragment extends android.support.v4.app.Fragment {
 
     Button btnhitung;

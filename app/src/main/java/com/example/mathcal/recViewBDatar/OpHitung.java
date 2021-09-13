@@ -1,8 +1,6 @@
 package com.example.mathcal.recViewBDatar;
 
-/**
-* Created by RPL2016-11 on 11/1/2018.
-        */
+
 public abstract class OpHitung {
 
     abstract int persegi(int sisi);
